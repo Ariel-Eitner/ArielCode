@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+:root{
+    --transicion: all .2s ease-in-out;
+    --celeste: #87CEEB;
+    --blanco: #FFF;
+    --oro: #ffd700;
+    --violeta: #8016e4;
+}
+body{
+    font-family: 'Nunito';
+    overflow-x: hidden;
+}
+
+.img-1{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 1rem;
+    /* left: 0; */
+}
+h1{
+    color: var(--celeste);
+}
+span{
+    text-transform: uppercase;
+    color: var(--oro);
+    font-weight: bold;
+    transition: var(--transicion);
+}
+span:hover{
+    text-shadow: 0px 3px 2px black, 0px -2px 2px black;
+}
+.fa-star{
+    color: var(--oro);
+    transition: var(--transicion);
+}
+.fa-star:hover{
+    transform: scale(1.2);
+    text-shadow: 0px 3px 2px black, 0px -2px 2px black;
+}
+.img-2{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    /* top: 1rem; */
+    left: 0;
+}
+
+.img-portafolio{
+    width: 90%;
+}
+
+.carousel-item img{
+    width: 90vw ;
+}
+.imagenyo{
+    width: 40vw;
+    border-radius: 50%;
+}
+
+.redondeado{
+    border-radius: 20%;
+}
+.iconos a {
+    color: blue;
+    transition: var(--transicion);
+}
+.iconos a:last-child{
+    color: #25D366;
+}
+
+.iconos a:hover{
+    transform: scale(1.2);
+}
