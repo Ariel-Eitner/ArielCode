@@ -72,3 +72,13 @@ span:hover{
 .iconos a:hover{
     transform: scale(1.2);
 }
+aside{
+    /* position: absolute; */
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-left: 2rem;
+    padding: 0 5rem;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
