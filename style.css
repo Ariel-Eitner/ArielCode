@@ -75,3 +75,12 @@ span{
     background-color: #f1f1f1;
     border: 1px solid #ccc;
 }
+
+.blog h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+ol li::marker {
+    font-size: 2rem;
+  }
