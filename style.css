@@ -10,7 +10,9 @@ body{
     font-family: 'Nunito';
     overflow-x: hidden;
 }
-
+a{
+    text-decoration: none;
+}
 .img-1{
     top: 1rem;
 }
@@ -48,6 +50,12 @@ span{
 .redondeado{
     border-radius: 20%;
 }
+.iconos{
+    background-color: white;
+    margin: 0 30rem;
+    padding: 3rem 0;
+    border: 3px solid black;
+}
 .iconos a {
     color: blue;
     transition: var(--transicion);
@@ -59,13 +67,11 @@ span{
 .iconos a:hover{
     transform: scale(1.2);
 }
-aside{
-    /* position: absolute; */
-    float: right;
-    width: 100%;
-    height: auto;
+.aside{
+    width: 30%;
+    height: fit-content;
     margin-left: 2rem;
-    /* margin: 0 5rem; */
+    margin-right: -2rem;
     background-color: #f1f1f1;
     border: 1px solid #ccc;
 }
