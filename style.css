@@ -84,3 +84,10 @@ span{
 ol li::marker {
     font-size: 2rem;
   }
+
+.borde{
+    border: 3px solid black;
+}
+.deg{
+    background-image: linear-gradient(to bottom, gray, lightgray);
+}
